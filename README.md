@@ -1,6 +1,8 @@
 ## Set up project:
 - docker-compose build
 - docker-compose up
+- docker exec -it project_app /bin/bash
+- php artisan migrate:fresh --seed
 
 SANCTUM
 Register:
